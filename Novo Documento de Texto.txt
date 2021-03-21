@@ -1,0 +1,26 @@
+<p>A Incubadora de Inovações é um mecanismo de apoio do Programa de Empreendedorismo e Inovação (PROEM), com a finalidade de dar condições às empresas para desenvolverem produtos, processos e serviços inovadores que foram gerados a partir de resultados de pesquisas aplicadas.</p>
+	      <p>Através das incubadoras é possível apoiar novos empreendimentos de projetos inovadores, por meio da oferta de inúmeras facilidades e apoio aos empreendedores, tais como:</p><br>
+	      <ul>
+	      	<li>Assessoria e consultorias especializadas;</li>
+	      	<li>Contatos com entidades e empresas;</li>
+	      	<li>Orientações, treinamento e capacitações gerenciais; </li>
+	      	<li>Espaço físico e infraestrutura operacional, administrativa e técnica.</li>
+	      </ul>
+	      <br>
+	      <p>A incubação de empresas tem um papel importante no ecossistema socioeconômico de uma região. Isso se traduz em benefícios que podem incluir:</p>
+	      <br>
+	      <ul>
+	      	<li>Criação de empregos e oportunidades;</li>
+	      	<li>Fomento à comunidade empreendedora;</li>
+	      	<li>Comercialização de tecnologia;</li>
+	      	<li>Diversificação da economia local;</li>
+	      	<li>Construção ou aceleração do crescimento de indústrias locais</li>
+	      	<li>Criação e retenção de negócios;</li>
+	      	<li>Revitalização da comunidade.</li>
+	      </ul>
+	      <br>
+	      <h3>Missão</h3>
+	      <p>Apoiar, técnica e administrativamente, empreendedores e empresas nascentes de base tecnológica, advindas da comunidade interna e externa da UTFPR, fomentando a cultura empreendedora, através da promoção de eventos e ações que reforcem a sua implementação.</p>
+	      <br>
+	      <h3>Visão</h3>
+	      <p>Ser um Programa de referência e modelo de pré-incubação e incubação de empresas para instituições de ensino, agências de desenvolvimento e incubadoras, cooperando para disseminar a cultura empreendedora e ampliar a criação e desenvolvimento de produtos e serviços inovadores de base tecnológica.</p>

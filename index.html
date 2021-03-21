@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Incubadora de Inovações Tecnológica</title>
+        
+
+    <!-- Bootstrap -->
+    <!--<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="estilo.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="javaScript.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+<!--=======================================Navegação Menu==================================================-->
+	  <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente menu">
+	    <div class="container">
+	      
+	      <!--header-->
+	      <div class="navbar-header">
+
+	        <!--botão toggle-->
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
+	          <span class="sr-only">alternar navegação</span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	          <span class="icon-bar"></span>
+	        </button>
+
+	        <a href="index.html" class="navbar-brand">
+	          <img src="imagens/logo96.png" class="img-logo ing-responsive">
+	        </a>
+	      </div>
+
+	      <!--navbar-->
+	      <div class="collapse navbar-collapse menu2" id="barra-navegacao">
+
+	        <ul class="nav navbar-nav navbar-right">
+	          <li><a href="#Incubadora">Incubadora</a></li>
+	          <li><a href="#Startup">Startups</a></li>
+	          <li><a href="#FacaParte">Estrutura</a></li>
+	          <li><a href="#Novidades">Novidades</a></li>
+	          <li><a href="#RodaPe">Contato</a></li>
+	        </ul>
+	      </div>
+
+	    </div>
+	  </nav>   
+<!--====================================Carrousel=========================================-->
+	  <section id="corrossel">
+	    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	      <!-- Indicators -->
+	      <ol class="carousel-indicators">
+	        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	      </ol>
+
+	      <!-- Wrapper for slides -->
+	      <div class="carousel-inner" role="listbox">
+	        <div class="item active">
+	          <img src="imagens/slide1.jpeg" class="image-responsive">
+	          <div class="carousel-caption">
+	            
+	          </div>
+	        </div>
+	        <div class="item">
+	          <img src="imagens/slide2.jpeg">
+	          <div class="carousel-caption">
+	            
+	          </div>
+	        </div>
+	        <div class="item">
+	          <img src="imagens/slide3.jpeg">
+	          <div class="carousel-caption">
+	            
+	          </div>
+	        </div>
+	      </div>
+
+	      <!-- Controls -->
+	      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	        <span class="sr-only">Previous</span>
+	      </a>
+	      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	        <span class="sr-only">Next</span>
+	      </a>
+	    </div>
+	  </section>
+<!--=============================================Capa==================================================-->
+	  <!--Informações sobre a Incubadora-->
+	  <div class="incubadora" id="Incubadora">
+	    <div class="texto-incubadora container">
+	      <h1>A Incubadora</h1>
+	      <img src="imagens/iut.jpeg" class="image-responsive image-iut">
+	    </div>
+	  </div>
+<!--=================================================Empresas===========================================-->
+	  <section class="startup" id="Startup">
+	  	<h1>Startups</h1>
+	  	<div class="col-md-6">
+	  		<div class="col-md-4">
+	  			<img src="imagens/smart.jpeg" class="image-responsive">
+	  		</div>
+	  		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut libero mauris, semper id molestie vel, placerat ac est. Morbi ac mattis est. Vivamus euismod velit purus, pretium placerat erat consequat nec. Vestibulum vitae elementum enim.</p>
+	  	</div>
+	  	<div class="col-md-6">
+	  		<div class="col-md-4">
+	  			<img src="imagens/smart.jpeg" class="image-responsive">
+	  		</div>
+	  		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut libero mauris, semper id molestie vel, placerat ac est. Morbi ac mattis est. Vivamus euismod velit purus, pretium placerat erat consequat nec. Vestibulum vitae elementum enim.</p>
+	  	</div>
+	  </section>
+
+<!--===========================================Faça parte===============================================-->
+	  <section class="facaParte" id="FacaParte">
+	  	<h1>Fases da Incubação</h1>
+	  	<div class="col-md-12 container">
+	  		<div class="col-md-4">
+	  			<a href="preIncubacao.html"><img src="imagens/preIncubacao.jpeg"></a>
+	  		</div>
+	  		<div class="col-md-4">
+	  			<a href="preIncubacao.html"><img src="imagens/incubacao.jpeg"></a>
+	  		</div >
+	  		<div class="col-md-4">
+	  			<a href="preIncubacao.html"><img src="imagens/posIncubacao.jpeg"></a>
+	  		</div>
+	  	</div>
+	  </section>
+
+<!--=============================================Novidades===============================================-->
+	  <section class="novidades" id="Novidades">
+	  	<h1>Novidades</h1>
+		  <section id="corrossel2">
+		    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		      <!-- Indicators -->
+		      <ol class="carousel-indicators">
+		        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		      </ol>
+
+		      <!-- Wrapper for slides -->
+		      <div class="carousel-inner" role="listbox">
+		        <div class="item active">
+		          <img src="imagens/novidades/slideCorteva.png" class="image-responsive">
+		          <div class="carousel-caption">
+		            <b>Inovações de ponta em Agricultura, Ciência dos Materiais e Produtos Especializados.</b>
+		            <!--https://www.corteva.com.br/quem-somos/nossa-fusao.html-->
+		          </div>
+		        </div>
+		        <div class="item">
+		          <img src="imagens/novidades/slideSRI.png">
+		          <div class="carousel-caption">
+		            Essa imagem é inlustrativa.
+		          </div>
+		        </div>
+		        <div class="item">
+		          <img src="imagens/slide3.jpeg">
+		          <div class="carousel-caption">
+		            Essa imagem é inlustrativa.
+		          </div>
+		        </div>
+		      </div>
+
+		      <!-- Controls -->
+		      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		        <span class="sr-only">Previous</span>
+		      </a>
+		      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		        <span class="sr-only">Next</span>
+		      </a>
+		    </div>
+		  </section>
+	  </section>
+
+<!--=======================================Google Maps==================================================-->
+	  <section class="maps" id="localizacao">
+	  	<h1>Localização</h1>
+		<div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+		  <iframe src="https://maps.google.com/maps?q=utfprsh&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+		    style="border:0" allowfullscreen></iframe>
+		</div>
+	 </section>
+<!--==================================Roda Pé====================================================-->
+  	<footer class="rodape" id="RodaPe">
+		<div class="container">
+			<div class="col-md-3">
+				<h2>Navegação</h2>
+				<br>
+				<ul class="nav">
+					<li><a href="#Incubadora">Incubadora</a></li>
+					
+					<li><a href="#Startup">Startup</a></li>
+					
+					<li><a href="#FacaParte">Estrutura</a></li>
+					
+					<li><a href="#Novidades">Novidades</a></li>
+					
+					<li><a href="">Contato</a></li>
+					
+				</ul>
+			</div>
+			<div class="col-md-3">
+	          <h2>Links Úteis</h2>
+	          <br>
+	          <ul class="nav">
+	          	<li><a href="http://www.utfpr.edu.br/campus/santahelena">UTFPR-SH</a></li>
+	          	<li><a href="http://portal.utfpr.edu.br/estrutura/relacoes-empresariais-e-comunitarias/campus/sh">DIREC</a></li>
+	          	<li><a href="https://santahelena.atende.net/#!/tipo/inicial">Prefeitura-SH</a></li>
+	          	<li><a href="https://sri.oesteemdesenvolvimento.com.br/">SRI</a></li>
+	          </ul>
+	        </div>
+	        <div class="col-md-3">
+				<h2>Recentes</h2>
+				<br>
+				<ul class="nav">
+					<li><a href=""><b>Evento</b> Empreendendo como Aluna</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+	          <h2>Contato</h2>
+	          <br>
+	          <h4>UTFPR-Câmpus Santa Helena</h4>
+	          <p>Prolongamento da Rua Cerejeira, s/n Bairro São Luiz CEP 85892-000</p>
+	          <p>Santa Helena - PR</p>
+	          <p>Bloco M IUT</p>
+	          <p><b>Telefone Geral</b> +55 (45) 3268-8800</p>
+	          <p><b>Email</b> </p>
+	        </div>
+		</div>
+	</footer>
+	<section class="copyright">
+		<div class="container">
+			<p>Copyright © 2019 Incubadora de Inovações da Universidade Tecnológica.</p>
+		</div>
+	</section>
+  </body>
+</html>
